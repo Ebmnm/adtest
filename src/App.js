@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Typing from 'react-typing-animation';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Typing>
+  <h1> {"jesd204.com ? $finish : ((cost_and_time << 2 ))"}</h1>
+  </Typing>
+  <h2> JESD204.com</h2>
+  <hr/>
     </div>
   );
 }
